@@ -1,9 +1,14 @@
-export function App() {
-  console.log('Oi');
+import { Heading } from './components/Heading';
 
+import './styels/theme.css';
+import './styels/global.css';
+
+export function App() {
   return (
     <>
-      <h1>Olá mundo!</h1>
+      <Heading attr={123} attr2='String'>
+        1 2 3
+      </Heading>
       <p>teste</p>
     </>
   );
