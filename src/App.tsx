@@ -1,15 +1,26 @@
-import { Heading } from './components/Heading';
-
 import './styels/theme.css';
 import './styels/global.css';
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
 
 export function App() {
   return (
     <>
-      <Heading attr={123} attr2='String'>
-        1 2 3
-      </Heading>
-      <p>teste</p>
+      <Container>
+        <Heading>LOGO</Heading>
+      </Container>
+
+      <Container>
+        <Heading>LOGO</Heading>
+      </Container>
+
+      <Container>
+        <section>FORM</section>
+      </Container>
+
+      <Container>
+        <section>FOOTER</section>
+      </Container>
     </>
   );
 }
