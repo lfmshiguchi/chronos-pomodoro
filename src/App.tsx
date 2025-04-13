@@ -4,6 +4,7 @@ import { Menu } from './components/Menu';
 
 import './styels/theme.css';
 import './styels/global.css';
+import { CountDown } from './components/CountDown';
 
 export function App() {
   return (
@@ -17,7 +18,7 @@ export function App() {
       </Container>
 
       <Container>
-        <section>FORM</section>
+        <CountDown />
       </Container>
 
       <Container>
